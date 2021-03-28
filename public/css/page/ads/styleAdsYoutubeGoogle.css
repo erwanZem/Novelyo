@@ -1,0 +1,15 @@
+
+
+#section0{
+    grid-template-columns: 70% 30%;
+}
+#section1 h2{
+    text-decoration: underline;
+}
+#carousel0, #carousel-content0{
+    height: 500px;
+}
+
+#section5{
+    background: white;
+}

@@ -1,0 +1,59 @@
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background:linear-gradient(#FF9500, #FBBC04);
+    bottom:0;
+    width:100%;
+    padding: 100px 0;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+}
+
+li{
+    margin: 3% 0;
+    text-align: center;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+#partie3{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.black{
+    color: black;
+    font-weight: bold;
+}
+
+.logo-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#subLabel{
+    border: none;
+    position: relative;
+    background: #FF9500;
+    padding: 6px;
+    z-index: 1;
+    left: -100px;
+    text-transform: uppercase;
+    align-self: center;
+    height: 25px;
+}
+
+#newsletter{
+    width: 400px;
+    height: 25px;
+}
+
+#newsletterForm{
+    display: flex;
+    width: 100%;
+    height: max-content;
+}

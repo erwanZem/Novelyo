@@ -1,0 +1,13 @@
+
+.mainBtn{
+    border:none;
+    margin: auto;
+    font-size: 26px;
+    padding: 1%;
+    margin: auto;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #FFDE59;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}

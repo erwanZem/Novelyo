@@ -1,0 +1,30 @@
+#card1{
+  grid-row: span 2;
+}
+
+img{
+  margin: auto;
+  width: 25%;
+  height : auto;
+}
+
+h1{
+  color:black;
+}
+  
+h2, p{
+  padding: 0 7%;  
+} 
+
+h2{font-size: 48px;}
+  
+
+.section{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#section3{
+  grid-template-columns: 1fr;
+  background: white;
+}

@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "zfxygqaz",
+    "password": "vTZE6ZlI5tuhT7BXrQQjzKe26h7hGY0Y",
+    "database": "zfxygqaz",
+    "host": "tai.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "zfxygqaz",
+    "password": "vTZE6ZlI5tuhT7BXrQQjzKe26h7hGY0Y",
+    "database": "zfxygqaz",
+    "host": "tai.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "zfxygqaz",
+    "password": "vTZE6ZlI5tuhT7BXrQQjzKe26h7hGY0Y",
+    "database": "zfxygqaz",
+    "host": "tai.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
