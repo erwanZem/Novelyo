@@ -1,0 +1,20 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+    padding: 2%;
+}
+#section0{
+    width: 90%;
+    margin: 0 auto;
+}
+.zonetext{
+    width: 100%;
+    padding: 1%;
+}
+.champ{
+    margin: 1% 0;
+}
+#isSend{
+    display: none;
+}

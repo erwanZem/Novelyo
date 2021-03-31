@@ -1,0 +1,28 @@
+
+#img1{
+    height: 80%;
+    width:auto;
+}
+#cards-grid0{
+    grid-template-columns:repeat(2,1fr);
+}
+#card0 p{
+    font-size: 24px;
+}
+#card1 p{
+    font-size: 18px;
+}
+#carousel0 .slider{
+    width: 50%;
+}
+#carousel0 .mask {
+    border-radius: 10%;
+}
+#carousel0 .quote{
+    font-size: 28px;
+}
+@media only screen and (max-width: 1200px){
+    #cards-grid0{
+        grid-template-columns: 1fr;
+    }
+}

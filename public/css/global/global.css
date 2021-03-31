@@ -1,9 +1,11 @@
-@import url(footer.css);
+
 @import url(navbar.css);
+@import url(footer.css);
+@import url(background.css);
+@import url(button.css);
 @import url(carousel.css);
 @import url(card.css);
-@import url(button.css);
-@import url(background.css);
+@import url(accordeons.css);
 /*Contenu de la page*/
 *{
     font-family: 'Roboto', sans-serif;
@@ -17,24 +19,55 @@ body {
 h2, p {
     padding: 0 7%;
 }
-
-.logo{
-    height: fit-content;
-    width: fit-content;
+h2 {
+    font-size: 48px;
+}
+h2.span{
+    grid-column: span 2;
+    text-align: center;
 }
 
 .img-text {
     margin: auto;
     width: 100%;
 }
-.section {
+div.section {
     display: grid;
 }
 
 /* Un Titre, un texte (+ un boutton)*/
-.content{
+div.content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin : 5% 0;
- }
+}
+
+.section.back{
+    background: white;
+}
+.section.noback{
+    background: none;
+}
+
+.section.noback .content h2.content{
+    border-radius: 150px;
+    text-shadow: 1px 1px 1px #0E0E0E;
+}
+.section.noback h2.content, .section.noback p.content {
+    color: white;
+}
+
+.content span.enter{
+    display: block;
+}
+.text-left{
+    grid-template-columns: 70% 30% ;
+}
+.text-half{
+    grid-template-columns: repeat(2,50%);
+}
+.text-right{
+    grid-template-columns: 30% 70%;
+}

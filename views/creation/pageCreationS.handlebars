@@ -1,35 +1,41 @@
-<div class="section" id="SectionAgence"><!--#SectionAgence{background-color=#FFDE59}-->
-    <h2 id="sous-titre">Agence de création de site internet</h2>
-    <p id="p1">Notre agence web fait bien plus que créer ou refondre
-        votre site internet. Notre intervention s’attache à créer
-        un site internet qui va générer un retour sur
-        investissement mesurable et programmé pour votre
-        entreprise.Découvrez comment</p>
+<div class="section noback">
+    <div class="content">
+        <h2 class="content">Agence de création de site internet</h2>
+        <p class="content">Notre agence web fait bien plus que créer ou refondre
+            votre site internet. Notre intervention s’attache à créer
+            un site internet qui va générer un retour sur
+            investissement mesurable et programmé pour votre
+            entreprise.Découvrez comment</p>
     </div>
-    <div class="div-grid">
-        <div id="div-bloc1">
-            <h2 id="sous-titre">La création de votre site web</h2>
-            <p class="grid-p">Votre site vitrine est un ensemble de fichiers statiques (HTML / CSS /
+</div>    
+<form>
+    <div class="section back">
+        <div class="content">
+            <h2 class="content">La création de votre site web</h2>
+            <p class="content">Votre site vitrine est un ensemble de fichiers statiques (HTML / CSS /
             JS). Seul le formulaire de contact a besoin d'interagir avec un serveur
             pour stocker les demandes en base de données.
-            <br> 
+            <span class="enter"></span>
             Pour faire ce serveur, nos programmeurs vont utiliser NodeJS avec le framework ExpressJS.</p>
-            <button class="b4">En savoir plus</button>
-        </div>
-        <div id="div-bloc2" >
-            <h2 id="sous-titre">La création de votre site e-commerce</h2>
-            <p class="grid-p">Développé avec Shopify, l'outils pionnier dans la construction de site e-
-                commerce, nos sites internet de ventes en ligne sont marquetés et
-                mesurables. Sécurisés et optimisés pour le référencement naturel, le
-                site internet permet de vendre sereinement vos produits en ligne.</p>
-                <button class="b4">En savoir plus</button>
-        </div>
-        <div id="div-bloc3">
-            <h2 id="sous-titre">Un consultant vous rappelle dans moins de 24h</h2>
-            <p class="grid-p">Nous voulons comprendre votre projet, vos objectifs et vos envies
-            pour vous proposer les solutions qui vous apporteront croissance et sérénité.</p>
-            <button class="b4">Nous contacter</button>
+            <button class="mainBtn" formaction="/siteVitrine">En savoir plus</button>
         </div>
     </div>
-</body>
-</html>
+        <div class="section noback">
+            <div class="content">
+                <h2 class="content">La création de votre site e-commerce</h2>
+                <p class="content">Développé avec Shopify, l'outils pionnier dans la construction de site e-
+                    commerce, nos sites internet de ventes en ligne sont marquetés et
+                    mesurables. Sécurisés et optimisés pour le référencement naturel, le
+                    site internet permet de vendre sereinement vos produits en ligne.</p>
+                    <button class="mainBtn" formaction="/siteEcommerce">En savoir plus</button>
+            </div>
+    </div>
+    <div class="section back">
+        <div class="content">
+            <h2 class="content">Un consultant vous rappelle dans moins de 24h</h2>
+            <p class="content">Nous voulons comprendre votre projet, vos objectifs et vos envies
+            pour vous proposer les solutions qui vous apporteront croissance et sérénité.</p>
+            <button class="mainBtn" formaction="/form">Nous contacter</button>
+        </div>
+    </div>
+</form>

@@ -5,18 +5,84 @@
    <title>Novelyo - {{{section}}}</title>
    <link rel="stylesheet" type="text/css" href="css/global/global.css" />
    <link rel="stylesheet" type="text/css" href="css/page/ads/styleAds{{{css}}}.css" />
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="/css/global/responsive.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<!--NAV-BAR-RESPONSIVE-->
+<nav class="responsive" role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input id="MenuBtn"type="checkbox" />
+    <!--
+    Some spans to act as a hamburger.
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="/"><li>Accueil</li></a>
+      <li>
+      <p>Création de site internet</p>
+      <ul class="sub">
+       <a href="/siteInternet"> <li>Création d'un site internet</li></a>
+       <a href="/siteVitrine"> <li>Création d'un site vitrine</li></a>
+        <a href="/siteEcommerce"><li>Création d'un site e-commerce</li>
+      </ul></a>
+    </li>
+      <li>
+      <p>Social Media Marketing</p>
+      <ul class="sub">
+        <a href="/Facebook"><li>Facebook Ads</li></a>
+       <a href="/Influenceur"> <li>Influenceur</li></a>
+        <a href="/GoogleYoutubeAds"><li>Google & Youtube Ads</li></a>
+        <a href="/Emailing"><li>Emailing</li></a>
+      </ul>  
+    </li> 
+      <a href="/nous"><li>A propos de nous</li> </a> 
+      <a href="/form"><li>Contact</li></a>
+    </ul>
+  </div>
+</nav>
 <!-- NAV-BAR -->
-<nav id="nav-bar">
-  <ul>
-   <li id="nav-logo"><img class="logo" alt="Logo Novelyo" src="/img/logoNovelyo.png"></li>
-    <li id="nav-accueil"><a href="">Accueil</a></li>
-    <li id="nav-creation"><a href="">Création d'un site internet</a></li>
-    <li id="nav-SMM"><a href="">Social Media Marketing</a></li>
-    <li id="nav-Apropos"><a href="">A propos de nous</a></li>
-    <li id="nav-contact"><a href="">Contact</a></li>
+<nav class="nav-bar">
+  <ul class="primary">
+    <li class="li-logo">
+      <a id="logo" href="/"><img class="logo-nav" src="img/LogoNovelyo.png"></a>
+      <a class="logo-text">Accueil</a>
+    </li>
+    <li>
+      <a href="">Création de site internet</a>
+      <ul class="sub">
+        <li><a href="siteInternet">Création d'un site internet</a></li>
+        <li><a href="siteVitrine">Création d'un site vitrine</a></li>
+        <li><a href="siteEcommerce">Création d'un site e-commerce</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="">Social Media Marketing</a>
+      <ul class="sub">
+        <li><a href="/Facebook">Facebook Ads</a></li>
+        <li><a href="/Influenceur">Influenceur</a></li>
+        <li><a href="/GoogleYoutubeAds">Google & Youtube Ads</a></li>
+        <li><a href="/Emailing">Emailing</a></li>
+      </ul>  
+    </li>
+    <li>
+      <a href="/nous">A propos de nous</a>
+    </li>
+    <li>
+      <a href="/form">Contact</a>
+    </li>
   </ul>
 </nav>
 <!-- background -->
@@ -30,28 +96,28 @@
 <!-- FOOTER -->
 <footer>
    <div id="partie1">
-      <div class="logo-container">
-         <img class="logo" src="/img/LogoNovelyo.png" alt="Novelyo Agence Digitale">
-         <p>
-            Pourquoi nous choisir ?
-         </p>
-      </div>
+         <img class="logo" src="/img/LogoNovelyo.png" alt="Novelyo Agence Digitale">        
    </div>
    <div id="partie2">
-      <li>A propos de nous</li>
-      <li>FAQ</li>
-      <li>Contact</li>
+      <li><a href="/nous">A propos de nous</a></li>
+      <li><a href="/form">FAQ</a></li>
+      <li><a href="/form">Contact</a></li>
    </div>
    <div id="partie3">
-      <p><span class="caps">ne manquez pas </span></p>
-      <p><span class="black">de vous abonner a notre newsletter</span></p>
-      <form id="newsletterForm">
-         <input id="newsletter" maxlength="25" placeholder="Entrez votre adresse email...">
-         <button id="subLabel" for="newsletter">s'abonner</button>
-      </form>
+      <p><span class="caps">Contact pro : </span> entreprise@novelyo.com </p>
+      <div class="container">
+        <div class="login_bar">
+          <form>
+            <input class="login" type="text" name="email" placeholder="Entrez votre email" >
+            <input type="submit" class="subscribe_button" formaction="/form" onclick="subscribeOnClick()" value="subscribe"></form>
+          <span class="subscribing"></span>
+          <span class="thanks"> Merci de votre abonnement </span>
+        </div>
+      </div> 
    </div>
+   <span class="novelio-text">Novelio ©</span>
 </footer>
 <!-- SCRIPT -->
   <script type="text/javascript" src="/js/global.js"></script>
-  <script type="text/javascript" src="/js/card.js"></script>
+<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </html>

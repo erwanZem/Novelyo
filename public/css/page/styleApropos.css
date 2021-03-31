@@ -1,0 +1,16 @@
+#section0{
+    width: 90%;
+    margin: 0 auto;
+}
+#section0 p{
+    text-align: justify;
+    line-height: 2.7rem;
+}
+#cards-grid1{
+    grid-template-columns: repeat(2,1fr);
+}
+ @media screen and (max-width: 1500px){
+    #cards-grid1{
+        grid-template-columns:1fr;
+    }
+}

@@ -1,6 +1,6 @@
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #FF9500 50%, rgb(255, 234, 42) 50%);
+  background-image: linear-gradient(-60deg, #FF9500 50%, #bd7106 50%);
   bottom:0;
   left:-50%;
   opacity:.5;

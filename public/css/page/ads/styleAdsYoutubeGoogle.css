@@ -1,15 +1,32 @@
-
-
-#section0{
-    grid-template-columns: 70% 30%;
+#carousel-content0{
+    margin: 15% 0;
 }
-#section1 h2{
-    text-decoration: underline;
-}
-#carousel0, #carousel-content0{
-    height: 500px;
-}
+#carousel-content0 ul li{
 
-#section5{
-    background: white;
+    font-size: 22px;    
+}
+#carousel0{
+    height: 100%;
+}
+#carousel0 .mask{
+    height: 300px;
+    border-radius: 10%;
+}
+#carousel0 .slider{
+    width:50%;
+
+}
+.li-accordion{
+    text-align:left;
+}
+.cards-grid .card p{
+    font-size:18px;
+}
+#cards-grid0,#cards-grid2{
+    grid-template-columns:repeat(2,1fr);
+}
+@media only screen and (max-width: 1200px){
+    #cards-grid0,#cards-grid2{
+        grid-template-columns: 1fr;
+    }
 }

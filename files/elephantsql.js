@@ -2,7 +2,7 @@ var pg = require('pg');
 //or native libpq bindings
 //var pg = require('pg').native
 
-var conString = "postgres://zfxygqaz:vTZE6ZlI5tuhT7BXrQQjzKe26h7hGY0Y@tai.db.elephantsql.com:5432/zfxygqaz" //Can be found in the Details page
+var conString = "postgres://dhmjtbig:BeAtgw54uJZzenkFcxG0ZPMrXzrjN8tf@tai.db.elephantsql.com:5432/dhmjtbig" //Can be found in the Details page
 var client = new pg.Client(conString);
 client.connect(function(err) {
   if(err) {

@@ -1,0 +1,43 @@
+<div class="section back">
+    <div class="content">
+        <h2 class="content">Les experts de Novelyo
+                vous accompagnent</h2>
+            <p class="content">dans la création, la gestion, l'optimisation de votre
+                stratégie digitale et l'analyse de vos performances
+                Pour un devis ou un audit, remplissez ce formulaire,
+                nous vous répondrons dans les 48H</p>
+
+        <form method="GET" class="form" enctype="multipart/form-data">
+            <div class="champ">
+                <label> Nom</label>
+                <input type="text" name="txtNom" class="zonetext" placeholder="Votre nom" required>
+            </div>
+            <div class="champ"> 
+                <label class="label">Mobile</label>
+                <input type="number" name="txtNbr" class="zonetext" placeholder="Votre n° de téléphone (+33)" required>
+            </div>
+            <div class="champ"> 
+                <label class="label">Email</label>
+                <input type="text" name="txtMail" class="zonetext" placeholder="Votre email" value={{{mail}}} required>
+            </div>
+            <div class="champ"> 
+                <label class="label">Société</label>
+                <input type="text" name="txtEntr" class="zonetext" placeholder="Votre entreprise" required>
+            </div>
+            <div class="champ"> 
+                <label class="label">Site Web</label>
+                <input type="text" name="txtSite" class="zonetext" placeholder="Votre site" required>
+            </div>
+
+            <div class="champ"> 
+                <label class="label">Message</label>
+                <input type="text" name="txtMsg" class="zonetext" placeholder="Votre message" required>
+            </div>
+            <input id="isSend" name="send" value="1">
+            <p class="content">La protection des données nous tient à cœur. Novelyo utilise les informations que vous fournissez afin de vous proposer des informations et
+                du contenu pertinent sur nos produits et services. Vous pouvez vous désinscrire de ce type de communications à tout moment. Pour plus
+                d'informations, consultez notre politique de confidentialité.</p>
+            <input type="submit" name="btadd" value="Envoyer" formaction="/form" class="mainBtn">
+        </form>
+    </div>
+</div>

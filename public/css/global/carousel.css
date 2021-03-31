@@ -7,7 +7,7 @@
 
 .slider {
   height: 320px;
-  width: 100%;
+  width: 50%;
   margin: 40px auto 0;
   overflow: 360px;
   position: relative;
@@ -15,16 +15,20 @@
   
 .mask {
   overflow: hidden;
-  height: 360px;
+  height: 180px;
+    
   text-align: center;
   background: white;
   color: black;
+  margin: 0 auto;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(255, 0, 0.4, 0.4);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+  border-radius: 10%;
 }
 .slider ul {
   margin: 0;
   padding: 0;
+  height: 100%;
   position: relative;
 }
 
@@ -36,16 +40,23 @@
   list-style: none;
 }
 
-.quote{
-  font-size: 42px;
-}
 
+.content-slider .slider .mask ul li {
+  font-size: 48px;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
 .slider .quote {
-  font-size: 50px;
   font-style: italic;
+  margin:0 auto;
+  height: 90%;
+  width: 90%;
+  text-align:center;
+}
+.mask ul li{
   align-self: center;
 }
-
 
 
 .slider li.anim1 {
