@@ -7,6 +7,12 @@
 #section1 .content h2, #section4 .content h2{
     grid-column: span 2;
 }
+#card4 p, #card7 p, #card8 p{
+    font-size:22px;
+}
+#card10 p{
+    font-size: 18px;
+}
 /*  Caroussel*/
 #carousel1 .slider{
     width: 100%;
